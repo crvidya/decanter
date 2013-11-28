@@ -13,8 +13,4 @@ script: python setup.py coverage
 after_success: ./scripts/update-gh-pages.sh
 env:
   global:
-    secure: ! 'jGsBSX8Rex1AzZ9KXHufy/4gUSz/ExiavvnJ+YlpO079m7JRPpE95xAo9CWo
-
-      RgSL6T++CkUfRgMsaUTQ+j/yNJLOL69mvtkG/j6RUD7TzA/MYjDPonqnV5BD
-
-      6oreMX8KB1ubqOSW0AVrfifG7aGxJm4j8xZugqn5tRE2EKm8iP8='
+    secure: ! 'jGsBSX8Rex1AzZ9KXHufy/4gUSz/ExiavvnJ+YlpO079m7JRPpE95xAo9CWo RgSL6T++CkUfRgMsaUTQ+j/yNJLOL69mvtkG/j6RUD7TzA/MYjDPonqnV5BD    6oreMX8KB1ubqOSW0AVrfifG7aGxJm4j8xZugqn5tRE2EKm8iP8='
